@@ -36,10 +36,10 @@ function TodoList () {
         <div>
              <input type="text" value={text} onChange={(e)=>setText(e.target.value)}/>
             <button onClick={addToDo}>Add Task</button>
-            <button onClick={()=>dispatch({type:"CLEAR_COMPLATED"})}>Clear Complated</button>
+            <button onClick={()=>dispatch({type:"CLEAR_COMPLeTED"})}>Clear Complated</button>
             <ul>
                 {state.map((todo) => (
-                    <li key={todo.id} style={{textDecoration:todo.complated ? "line-through": "none"}}>{todo.text}
+                    <li key={todo.id} style={{textDecoration:todo.completed ? "line-through": "none"}}>{todo.text}
                     <button onClick={()=>dispatch({type:"TOGGLE_TODO",payload: todo.id})}>✔</button>
                     <button onClick={()=>dispatch({type: "REMOVE_TODO", payload: todo.id})}>❌</button>
                     </li>

@@ -2,7 +2,12 @@ import ProfilerComponent from "./Profiler"
 import ThePureComponent from "./ThePureComponent"
 import React from "react";
 import TodoList from "./ToDoLIst";
-
+import ThemeToggle from "./ThemeToggle/ThemeToggle";
+import { ThemeProvider } from "./ThemeToggle/ThemeContext";
+import Page from "./AuthenticationContext/Page";
+import CartPage from "./Cart/CartPage";
+import PageNotification from "./ContextNotification/PageNotification";
+import NotificationPage from "./ContextNotification/NotificationPage";
 
 // function App() {
 
@@ -48,7 +53,14 @@ import TodoList from "./ToDoLIst";
 const App = () => {
   return (
     <>
-    <TodoList/>
+    {/* <TodoList/> */}
+    {/* <ThemeProvider>
+    
+    <ThemeToggle/>  
+    </ThemeProvider> */}
+    {/* <Page/> */}
+    {/* <CartPage/> */}
+    <NotificationPage/>
     </>
   )
 }
