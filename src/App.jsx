@@ -8,6 +8,13 @@ import Page from "./AuthenticationContext/Page";
 import CartPage from "./Cart/CartPage";
 import PageNotification from "./ContextNotification/PageNotification";
 import NotificationPage from "./ContextNotification/NotificationPage";
+import AutoFocusInput from "./useRef/AutoFocusInput";
+import PersistentCounter from "./useRef/PersistentCounter";
+import ChangeColor from "./useRef/ChangeColor";
+import MeasureElement from "./useRef/MeasureElement";
+import CounterPage from "./Counter/CounterPage";
+import FetchPost from "./Axios/FetchPost";
+import ErrorHandlingExample from "./Axios/ErrorHandlingExample";
 
 // function App() {
 
@@ -60,7 +67,14 @@ const App = () => {
     </ThemeProvider> */}
     {/* <Page/> */}
     {/* <CartPage/> */}
-    <NotificationPage/>
+    {/* <NotificationPage/> */}
+    {/* <AutoFocusInput/> */}
+    {/* <PersistentCounter/> */}
+    {/* <ChangeColor/> */}
+    {/* <MeasureElement/> */}
+    {/* <CounterPage/> */}
+    {/* <FetchPost/> */}
+    <ErrorHandlingExample/>
     </>
   )
 }
