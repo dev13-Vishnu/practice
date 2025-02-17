@@ -15,6 +15,9 @@ import MeasureElement from "./useRef/MeasureElement";
 import CounterPage from "./Counter/CounterPage";
 import FetchPost from "./Axios/FetchPost";
 import ErrorHandlingExample from "./Axios/ErrorHandlingExample";
+import CreatePost from "./Axios/CreatePost";
+import FetchUsers from "./Axios/FetchUsers";
+import FetchWithTimeout from "./Axios/FetchWithTimeout";
 
 // function App() {
 
@@ -74,7 +77,10 @@ const App = () => {
     {/* <MeasureElement/> */}
     {/* <CounterPage/> */}
     {/* <FetchPost/> */}
-    <ErrorHandlingExample/>
+    {/* <ErrorHandlingExample/> */}
+    {/* <CreatePost/> */}
+    {/* <FetchUsers/> */}
+    <FetchWithTimeout/>
     </>
   )
 }
