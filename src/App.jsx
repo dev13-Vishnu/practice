@@ -18,6 +18,8 @@ import ErrorHandlingExample from "./Axios/ErrorHandlingExample";
 import CreatePost from "./Axios/CreatePost";
 import FetchUsers from "./Axios/FetchUsers";
 import FetchWithTimeout from "./Axios/FetchWithTimeout";
+import Counter from "./UserReducer/Counter";
+import Form from "./UserReducer/Form";
 
 // function App() {
 
@@ -80,7 +82,9 @@ const App = () => {
     {/* <ErrorHandlingExample/> */}
     {/* <CreatePost/> */}
     {/* <FetchUsers/> */}
-    <FetchWithTimeout/>
+    {/* <FetchWithTimeout/> */}
+    {/* <Counter/> */}
+    <Form/>
     </>
   )
 }
