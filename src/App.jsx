@@ -20,6 +20,7 @@ import FetchUsers from "./Axios/FetchUsers";
 import FetchWithTimeout from "./Axios/FetchWithTimeout";
 import Counter from "./UserReducer/Counter";
 import Form from "./UserReducer/Form";
+import FetchData from "./UserReducer/FetchData";
 
 // function App() {
 
@@ -84,7 +85,8 @@ const App = () => {
     {/* <FetchUsers/> */}
     {/* <FetchWithTimeout/> */}
     {/* <Counter/> */}
-    <Form/>
+    {/* <Form/> */}
+    <FetchData/>
     </>
   )
 }
