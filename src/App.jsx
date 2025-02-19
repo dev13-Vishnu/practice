@@ -1,7 +1,7 @@
+import React from "react";
 import ProfilerComponent from "./Profiler"
 import ThePureComponent from "./ThePureComponent"
-import React from "react";
-import TodoList from "./ToDoLIst";
+import TodoList from "./UserReducer/ToDoLIst";
 import ThemeToggle from "./ThemeToggle/ThemeToggle";
 import { ThemeProvider } from "./ThemeToggle/ThemeContext";
 import Page from "./AuthenticationContext/Page";
@@ -21,6 +21,8 @@ import FetchWithTimeout from "./Axios/FetchWithTimeout";
 import Counter from "./UserReducer/Counter";
 import Form from "./UserReducer/Form";
 import FetchData from "./UserReducer/FetchData";
+import UserInfo from "./UserReducer/UserInfo";
+import SampleParentComponet from "./useCallback/SampleParentComponet";
 
 // function App() {
 
@@ -86,7 +88,9 @@ const App = () => {
     {/* <FetchWithTimeout/> */}
     {/* <Counter/> */}
     {/* <Form/> */}
-    <FetchData/>
+    {/* <FetchData/> */}
+    {/* <UserInfo/> */}
+    <SampleParentComponet/>
     </>
   )
 }
